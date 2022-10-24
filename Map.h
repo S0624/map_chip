@@ -41,4 +41,9 @@ private:
 	//マップチップ編集用データ
 	int m_cursorNo;
 	std::vector<int> m_mapData;
+
+	//スクロールする
+	int m_scrollX;
+	int m_scrollY;
+
 };
